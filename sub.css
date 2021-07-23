@@ -1,0 +1,134 @@
+/* sub.css
+    aside 240px
+    content 930px
+    */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-weight: bold;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 26px;
+}
+#main_sub {
+    width: 1200px;
+    margin: 0 auto;
+   /* outline: 1px solid red; */
+    padding-top: 60px;
+}
+#main_sub .container_sub {
+    display: flex;
+}
+/* 사이드 바 */
+#main_sub aside {
+    width: 240px;
+    margin-right: auto;
+   /* outline: 1px solid red; */
+}
+#main_sub article {
+    width: 930px;
+}
+#main_sub aside h3 {
+    text-align: center;
+    padding-top: 60px;
+}
+#main_sub aside .subMenu {
+    padding-top: 95px;
+}
+#main_sub aside .subMenu > li {
+    background: #CFCCB1;
+    margin-bottom: 1px;
+}
+#main_sub aside .subMenu > li > a {
+    transition: 0.6s;
+}
+#main_sub aside .subMenu > li:hover > a {
+    background: #D9A842; 
+    color: #fff;
+}
+#main_sub aside .subMenu > li.active > a {
+    background: #D9A842; 
+    color: #fff;  
+    border-bottom: 1px solid #fff;
+}
+#main_sub aside .subMenu > li > a {
+    color: #000;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+/* 본문 */
+#main_sub article .breadCrumb{
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+#main_sub .top_h3 {
+    padding-top: 73px;
+}
+#main_sub .main_img {
+    width: 930px;
+    height: 256px;
+    background-image: url(images/zoocoffee05.jpg);
+    background-size: cover;
+    margin-top: 60px;
+}
+#main_sub .main_contents {
+    background: #F8F8F8;
+    position: relative;
+}
+#main_sub .left_con {
+    height: 570px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#main_sub .left_con h3 {
+    font-size: 24px;
+    padding-top: 30px;
+}
+#main_sub .left_con p {
+    padding-top: 27px;
+}
+
+#main_sub .box1 {
+    width: 72px;
+    height: 24px;
+    background: #fff;
+    font-size: 6px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+}
+#main_sub .box2 {
+    width: 72px;
+    height: 24px;
+    background: #fff;
+    font-size: 6px;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+}
+
+#main_sub .right_con img {
+    position: absolute;
+    right: 45px;
+    bottom: 45px;
+}
+.text-layout {
+    background: #F8F8F8;
+    padding-left: 30px;
+}
+#sub1_1 article .text1 {
+    display: flex;
+    padding-bottom: 35px;
+}
