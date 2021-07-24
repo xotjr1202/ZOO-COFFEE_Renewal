@@ -26,6 +26,7 @@ h4 {
 #main_sub .container_sub {
     display: flex;
 }
+
 /* 사이드 바 */
 #main_sub aside {
     width: 240px;
@@ -66,6 +67,7 @@ h4 {
     font-size: 18px;
     text-align: center;
 }
+
 /* 본문 */
 #main_sub article .breadCrumb{
     text-align: right;
@@ -132,6 +134,7 @@ h4 {
     display: flex;
     padding-bottom: 35px;
 }
+
 /* 오시는 길 */
 #sub1_5 article .location {
     margin-top: 55px;
@@ -141,6 +144,7 @@ h4 {
     margin-bottom: 1em;
     font-size: 16px;
 }
+
 /* new 메뉴소개 */
 #main_sub .new_main_img {
     width: 930px;
@@ -162,8 +166,6 @@ h4 {
     line-height: 1.5em;
 }
 #main_sub .contents > ul > li > p > span {
-    width: 46px;
-    height: 16px;
     font-size: 10px;
     border-radius: 11px;
     color: #fff;
@@ -188,3 +190,96 @@ h4 {
 #main_sub .contents > ul > .child {
     margin-bottom: 110px;
 }
+/* 딸기 요거트 상세페이지 */
+#main_sub article .info_main_img {
+    width: 327px;
+    height: 334px;
+    background-image: url(images/yogurt_info.png);
+    margin-top: 110px;
+}
+#main_sub article .info_main_contents {
+    width: 930px;
+    display: flex;
+    border-bottom: 2px solid #B7B7B7;
+    overflow: hidden;
+}
+#main_sub article .info_text_layout {
+    margin-top: 40px;
+    width: 600px;
+}
+#main_sub article .info_text1 {
+    padding-bottom: 14px;
+    border-bottom: 2px solid #000;
+}
+#main_sub article .info_text1 > p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+#main_sub article .info_text1 > p > span {
+    font-size: 24px;
+}
+#main_sub article .info_text1 > p > .new {
+    font-size: 10px;
+    border-radius: 11px;
+    color: #fff;
+    margin-left: 0.5em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #D43E34;
+}
+#main_sub article .info_text2 {
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#main_sub article .info_text3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #000;
+}
+#main_sub article .info_text3 > p > span {
+    float: right;
+    margin-right: 30px;
+}
+#main_sub article .info_text4 {
+    width: 600px;
+    display: flex;
+    box-sizing: border-box;
+    line-height: 2em;
+    padding-top: 20px;
+    overflow: hidden;
+}
+#main_sub article .info_text4 > .info_text4_left {
+    border-right: 3px dotted #B7B7B7;
+    width: 300px;
+}
+#main_sub article .info_text4 > .info_text4_left > p > span {
+    float: right;
+    margin-right: 45px;
+}
+#main_sub article .info_text4 > .info_text4_right {
+    width: 300px;
+}
+#main_sub article .info_text4 > .info_text4_right > p {
+    margin-left: 45px;
+}
+#main_sub article .info_text4 > .info_text4_right > p > span {
+    float: right;
+    margin-right: 30px;
+}
+#main_sub article .info_text5 {
+    width: 570px;
+    background: #CFCCB1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 1em;
+    padding-left: 20px;
+}
+#main_sub article .bot_text > p {
+    padding-top: 25px;
+    padding-bottom: 125px;
+}
+
+
